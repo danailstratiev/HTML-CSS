@@ -1,0 +1,19 @@
+section{
+    box-sizing: inherit;
+border: 0.5rem dashed greenyellow;
+text-align: center;
+width: 250px;
+height: 250px;
+}
+
+p{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5rem solid #00f;
+    padding: 20px;
+    
+}
+
+*, *before, *after{
+    box-sizing: inherit;
+}
