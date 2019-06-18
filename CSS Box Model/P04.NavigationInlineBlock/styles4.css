@@ -1,0 +1,16 @@
+nav{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+h1,h2{
+    font-family: Georgia, serif;
+    line-height: 1.2;
+
+}
