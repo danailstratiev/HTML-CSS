@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Arial', sans-serif;
+}
+
+body {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.personal-card {
+    background-image: linear-gradient(to bottom, #051937, #002d48, #003e44, #004d2e, #425714);
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.personal-info img {
+    width: 150px;
+    height: 150px; 
+    transform: rotate(350deg);
+}
+
+.color-box > p {
+    width: 20%;
+    height: 0.2rem;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+.color-box.bottom > p {
+    margin: 0;
+}
+
+.color-box.with-content {
+    margin-bottom: 2rem;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.color-box.with-content img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color-box.with-content > .yellow {
+    color: yellow;
+    position: relative;    
+}
+
+.color-box.with-content > p {
+    height: auto;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.7rem 0;
+    font-weight: 700;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.yellow-green {
+   background: yellowgreen;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+
+.red {
+    background: red;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.personal-info {
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.personal-content {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 18px;
+}
