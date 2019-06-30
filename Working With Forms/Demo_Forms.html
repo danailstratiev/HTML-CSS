@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="demoforms.css">
+    <title>Demo</title>
+</head>
+<body>
+    
+    <form action="/contacts/new">
+    
+        <fieldset>
+            <legend>Contact Info</legend>
+
+            <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            </p>
+            
+            <p>
+                <label for="name">Email</label>
+                <input type="number" name="name" id="name" placeholder="some@mail.com">
+            </p>
+
+            <p>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" name="contact_consent" id="contact_consent">
+            </p>
+
+            <p>
+                <label for="otions">Option 1</label>
+                <input type="radio" name="options" id="options_1">
+            </p> 
+            <p>
+                <label for="otions">Option 2</label>
+                <input type="radio" name="options" id="options_2">
+            </p>
+
+            <p>
+                <select name="optionsanother" id="optionsanother">
+                    <option value="">Please select ...</option>
+                    <option value="11111">First</option>
+                    <option value="22222">Second</option>
+                    <option value="33333">Third</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Send it!">
+            </p>
+            <p>
+                <input type="reset" value="Clear All">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+}
+
+form{
+    max-width: 30rem;
+    margin: auto;
+}
+
+form fieldset{
+    display: block;
+    border: 2px solid #999;
+    padding: 2rem;
+}
+
+form legend{
+    display: inline-block;
+    padding: 0 0.5rem;
+    margin-left: -0.5rem
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+form fieldset p{
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+form input{
+    display: block;
+}
+
+form input[type="password"],
+form input[type="number"],
+form input[type="text"]{
+    padding: 0.5rem 1rem;
+    border: 2px solid springgreen;
+}
+
+form input[type="password"]:hover,
+form input[type="number"]:hover,
+form input[type="text"]:hover,
+form input[type="password"]:focus,
+form input[type="number"]:focus,
+form input[type="text"]:focus{
+    border: 2px solid #369;
+}
+
+form input[type="submit"]{
+    padding: 0.5rem 1rem;
+    background: #369;
+    color: #fff;
+    border: 2px solid #369;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    border: 2px solid #369;
+    background: #fff;
+    color: #369;
+}
+
+textarea{
+margin-left: 2rem;
+}
+
+input{
+    border-color: #000;
+}
