@@ -1,0 +1,109 @@
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #07d4df, #00c5ee, #00b4fc, #00a0ff, #0087ff, #5779ff, #8c65ff, #ba43f8, #c83cfa, #d632fc, #e425fd, #f208fd);
+    height: 750px;
+}
+
+.heading p{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    padding: 2.5rem;
+}
+form{
+    max-width: 28rem;
+    margin: auto;
+}
+
+form fieldset{
+    display: block;
+    padding: 2rem;
+    border: none;
+    background: #fff;
+}
+
+.login p{
+    display: block;
+    background: black;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.login{
+    margin: 1.5rem 0;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3rem 1.5rem;
+}
+
+input{
+    border: 0.5px solid #F7F7F7;
+    background: #F7F7F7; 
+    width: 100%;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+   
+}
+
+input:hover,
+input:focus {
+    border: 0.5px solid #FA7AFB
+}
+
+.pass {
+    padding-bottom: 4rem;
+}
+
+.username,
+.pass,
+.login{
+    display: block;
+    padding: 0.5rem 1.5rem;
+}
+
+
+
+.facebook {
+    border: 2px solid #369;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #369;
+    border-radius: 0.3rem;
+    width: 45%;
+}
+
+.google {
+    border: 1px solid #999;
+    padding: 0.5rem 1rem;
+    color: #000;
+    background: #fff;
+    border-radius: 0.3rem;
+    width: 45%;
+}
+
+.facebook i,
+.google i {
+    padding-right: 1rem;
+}
