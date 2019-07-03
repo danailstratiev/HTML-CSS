@@ -1,0 +1,50 @@
+/* html {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes {
+    flex-direction: column;
+} */
+
+.calendar {
+    max-width: 80rem;
+    margin: 5rem auto;
+    display: flex;
+}
+
+.calendar .item {
+    border: 1px solid #000;
+    flex-grow: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.calendar .item-grow {
+    flex-basis: 100%;
+}
+
+.calendar .week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar .notes {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
