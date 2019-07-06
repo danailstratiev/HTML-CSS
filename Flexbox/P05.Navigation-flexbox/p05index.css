@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+.site{
+    max-width: 78%;
+    margin: 3rem auto;
+}
+
+nav {
+    display: flex;
+    color: rgb(0, 153, 0);
+    margin-left: auto;
+    padding: 0 1rem;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 1rem;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
+header > nav > ul > li > a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+
+}
