@@ -1,0 +1,38 @@
+body{
+    padding: 2rem;
+}
+
+.container {
+    background: #000;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: #f00;
+    padding: 0.5em;
+    flex-grow: 1;
+    margin-bottom: 0.5rem;
+}
+
+/* .item:not(:first-child){
+    margin-left: 0.5em;
+} */
+
+.item-grow + .item {
+    margin-left: 0;
+}
+
+.item + .item {
+    margin-left: 0.5rem;
+}
+
+.item.item-grow {
+    background: #0f0;
+    flex-basis: 100%; 
+    margin-left: 0;
+}
