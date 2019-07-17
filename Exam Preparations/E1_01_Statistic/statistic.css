@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5  'Ubuntu';
+    font-weight: 900; 
+}
+
+.visualization {
+    width: 1000px;
+    margin: 5rem auto;
+    background: url('../E1_01_Statistic/Requirements-and-Resources/images/image.jpg') no-repeat center center;
+    background-size: cover;
+    
+    color: #fff;
+}
+
+.site-header {
+    display: flex;
+    background: #324F7C;
+    opacity: 0.8;
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+.site-header p {
+    margin-left: 2px;
+
+}
+
+.centralcontent {
+    display: flex;
+    flex-wrap: wrap;
+    background: #324F7C;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.centralcontent div {
+    flex: 0 0 23%;
+    padding: 4rem;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem 0.5rem;
+}
+
+.centralcontent i {
+    color: #EC8421;
+    padding-bottom: 1rem;
+    font-size: 2.6rem;
+}
+
+.text {
+    font-weight: 400;
+}
+
