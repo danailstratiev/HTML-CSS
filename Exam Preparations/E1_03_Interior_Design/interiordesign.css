@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface';
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto 10rem;
+
+    align-content: center;
+}
+/* ../Exam\ Preparations/E1_01_Statistic/Requirements-and-Resources/images/image.jpg */
+.site-info {
+    background: url('../E1_03_Interior_Design/Requirements-and-Resources/image/image.jpg')no-repeat center center;
+    background-size: cover;
+    color: #000;
+}
+
+.site-moto {
+    padding: 2rem 0.5rem;
+
+    margin: 1rem;
+    box-shadow: 5px 10px 18px #888888;
+    width: 20%;
+}
+
+.site-moto h2{
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.site-moto p{
+    padding: 1rem;
+`
+}
+
+.spacer {
+    display: flex;    
+}
+
+.site-information{
+    flex: 0 0 30%;
+    text-align: left;
+    margin-left: auto;
+    color: #fff;
+    background-image: linear-gradient(to right, #9c928a, #a89f99, #b3aca8, #bfbab8, #cac8c7); 
+}
+
+.site-information i{
+    margin-top: 0.3rem;
+    margin-left: 20rem;
+
+}
+
+.site-information p{
+    text-align: right;
+    padding: 0.4rem;
+    color: #FCF9EC;
+}
+
+.empty{
+    height: 300px;
+}
+
+main {
+    background: #F2F0F3;
+    display: flex;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.important {
+    flex: 0 0 70%;
+    padding: 4rem;
+}
+
+.important h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+.contact{
+    padding-top: 4rem;
+    
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    background: #66774D;
+    color: #fff;
+text-align: center;
+    padding: 0.3rem;
+}
+
+aside{
+    flex-basis: 30%;
+    background: #BAB1AD;
+    align-items: center;
+}
+
+aside div {
+    padding: 2rem;
+}
