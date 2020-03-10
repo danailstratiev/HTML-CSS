@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*:before, *:after{
+    box-sizing: inherit;
+}
+
+header nav ul{
+    display:  flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.orange{
+    color: orange;
+}
+
+header nav ul:nth-child(2) li{
+    border-right: 1px solid grey;
+    padding-right: 0.5em;
+}
+
+.main-image{
+    background: url('residential-banner-2.jpg') no-repeat center;
+    color: white;
+    text-align: center;
+    padding:3em;
+    height: 25em;
+}
+
+.main-image p{
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.main-image h1{
+    font-size: 2.5em;
+}
+
+.main-image p:nth-child(2){
+    padding: 3em;
+}
+
+.main-image section{
+    padding-top: 3em;
+}
+
+.how-it-works h4{
+    text-align: center;
+}
+
+.how-it-works ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.how-it-works ul li{
+    text-align: center;
+    width: 15%;
+    margin: 1em;
+}
+
+.how-it-works ul li h2{
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pseudo-elements */
+.num:before,
+.num:after{
+    height: 2px;
+    width: 20px;
+    background-color: gray;
+    content: '';
+    display: block;
+    margin: 0.5em;
+}
+
+.num{
+    font-size: 2.5em;
+}
+
+.images ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 3em 0 3em 0;
+}
+
+.images ul li{
+    margin: 0.2em;
+}
+
+.images ul li img{
+    width: 15em;
+}
+
+.images{
+    background-color: rgb(237, 237, 237);
+}
+
+footer{
+    background-color: black;
+    color: gainsboro;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.left{
+    display: flex;
+    padding: 0em 1em 3em 3em;
+    border-bottom: 2px solid gainsboro;
+}
+
+.left ul{
+    padding: 0em 1em 1em 1em;
+}
+
+.right{
+    display: block;
+}
+
+.right > *{
+    margin: 0em 1em 2em 1em;
+}
+
+.right input,
+.right button{
+    padding: 0.5em;
+}
+
+.right button{
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.center p{
+    text-align: center;
+}
+
+.down{
+    text-align: center;
+    padding: 6em 0 2em 0;
+}
