@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+
+    .site-main {
+        margin: 0;
+    }
+
+    .site-information-text {
+        flex: 0 0 100%;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    .site-information-image {
+        background: url(./images/games-picture.jpg) center center;
+        background-size: cover;
+        flex: 0 0 0%;
+    }
+
+    .site-posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .site-posts div{
+        flex-basis: 100%;
+    }
+
+    .site-post h2 {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        padding: 0.5rem 1rem;
+    }
+
+    .site-post p {
+        padding: 1rem;
+        font-size: 12px;
+    }
+
+    .entry-title {
+        font-weight: 400;
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .entry-description {
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .site-form button {
+        background: #329A8F;
+        padding: 0.8rem 3rem;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .site-form form > p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-form label {
+        font-size: 1.3rem;
+        font-family: 'Lobster', cursive;
+        padding-bottom: 0.5rem;
+    }
+
+    .site-blog-container {
+        text-align: center;
+        padding: 4rem 8rem;
+        background: rgb(241, 241, 230);
+        margin-top: 1.5rem;
+    }
+
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+        background: #329a8f;
+        color: #fff;
+        font-family: 'Lobster', cursive;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-title {
+        font-weight: 400;
+        font-size: 2.4rem;
+        padding: 0;
+    }
+
+    .site-information-image {
+        background: url(./images/games-picture.jpg) center center;
+        background-size: cover;
+        flex: 0 0 50%;
+    }
+
+    .site-logos-container {
+        display: flex;
+    }
+
+    .site-logo img {
+        width: 8.5rem;
+        height: 10.2rem;
+    }
+
+    .site-logo {
+        margin: 0 auto;
+    }
+
+    .site-logo {
+        color: #FF8F57;
+        font-weight: bold;
+        display: inline-block;
+        letter-spacing: 1px;
+        font-size: 1.40rem;
+        position: relative;
+    }
+}
