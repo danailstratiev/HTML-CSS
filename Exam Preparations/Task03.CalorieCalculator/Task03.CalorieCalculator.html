@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="caloriecalculator.css">
+    <title>Calorie Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="image">
+
+        </section>
+        <section class="calculator">
+            <h1>CALORIE CALCULATOR</h1>
+            <div class="units">
+                <p>Standart units (US)</p>
+                <p>Metric units</p>
+            </div>
+            <form action="#">
+                <p>
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="female">
+                            Female
+                        </option>
+                        <option value="male">
+                            Male
+                        </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="age">Age</label>
+                    <input type="text" id="age" placeholder="Years...">
+                </p>
+                <p class="full-width">    
+                    <label for="weight">Weight</label>
+                    <input type="text" id="weight" placeholder="Pounds...">
+                </p>
+                <p>
+                    <label for="height">Height</label>
+                    <!-- <div class="multi-inputs"> -->
+                        <input type="text" placeholder="Feet..." id="feet">
+                    <!-- </div> -->
+                </p>    
+                <p>
+                    <label for="inches" class="hidden">Feet</label>
+                    <input type="text" placeholder="Inches..." id="inches">
+                </p>
+                <a href="#" class="button">Calculate</a>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

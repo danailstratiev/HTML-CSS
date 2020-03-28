@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 2rem auto;
+    border: 2px solid #888686;
+    border-radius: 0.3em;
+    display: flex;
+    color: #4D4C4F;
+}
+
+.image {
+    flex: 0 0 50%;
+    background: url('../Exam\ Preparations/image.png');
+    background-size: cover;
+}
+
+.calculator {
+    flex: 0 0 50%;   
+    padding: 1.5rem 1rem;
+    background: #f6f7f8;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.units {
+    display: flex;
+    margin: 1.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+.units p:nth-child(1) {
+    background: #EFE562;
+    flex-basis: 50%;
+    padding: 0.3rem 0;
+}
+
+.units p:nth-child(2) {
+    background: #DFDEDF;
+    flex-basis: 50%;
+    padding: 0.3rem 0;
+}
+
+label {
+    display: block;
+} 
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form p {
+    flex-basis: 45%;
+    margin-top: 1.5rem;
+}
+
+form .full-width {
+    flex-basis: 100%;
+}
+
+form a {
+    flex-basis: 100%;
+}
+
+select,
+input {
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #888686;
+    padding: 0.5rem 0.3rem;
+    width: 100%;
+    font-style: italic;
+    font-size: 18px;
+}
+
+select {
+    color: #4D4C4F;
+    padding: 0.45rem 0.3rem;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.button {
+    background: #05A2D3;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.3em;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5re 0;
+    font-size: 18px;
+    margin-top: 1rem;
+}
