@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'PT Serif', serif;
+}
+
+.wrapper {
+    display: flex;
+    box-shadow: 0px -1px 37px 0px rgba(0, 0, 0, 0.75);
+    max-width: 900px;
+    margin: 3rem auto;
+}
+
+.recipe {
+    background: url(../Exam\ Preparations/image1.png);
+    padding: 2.5rem 1.5rem;
+    flex: 0 0 50%;
+}
+
+.image {
+    background: url(../Exam\ Preparations/image.jpg) no-repeat center center;
+    background-size: cover;
+    flex: 0 0 50%;
+}
+
+
+/* .image{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 50%;
+}
+
+img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    position: absolute;
+} */
+
+/* Adding after element will help with image sizing
+img: after {
+    padding-top: 100%;
+    content: '';
+    display: block;
+} */
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px dotted #548C12;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 2rem 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li span {
+    color: #548C12;
+    font-weight: 900;
+}
+
+.description {
+    margin-bottom: 2rem;
+}
+table, th, td {
+    border: 2px solid #548C12;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
